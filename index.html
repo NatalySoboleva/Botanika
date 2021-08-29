@@ -10,9 +10,9 @@
 </head>
 
 <body>
-    <main class="page-content">
-        <header class="header">
-            <nav class="menu">
+    <header class="header">
+        <nav class="menu">
+            <div class="menu-container">
                 <ul class="menu-list">
                     <li class="menu-list-item">
                         <a class="menu-link" href="#0">Каталог</a>
@@ -23,9 +23,9 @@
                     <li class="menu-list-item">
                         <a class="menu-link" href="#0">Отзывы</a>
                     </li>
-                    <li class="menu-list-item">
-                        <img src="images/logo.png" alt="Логопип Botanika">
-                    </li>
+                </ul>
+                <img src="images/logo.png" alt="Логопип Botanika" class="logo">
+                <ul class="menu-list">
                     <li class="menu-list-item">
                         <a class="menu-link" href="#0">Спецпредложения</a>
                     </li>
@@ -36,21 +36,22 @@
                         <a class="menu-link" href="#0">Корзина</a>
                     </li>
                 </ul>
-            </nav>
-            <div class="container block">
-                <div class="header-cart">
-                    <h1 class="header-cart-title">Авторские букеты
-                        <span class="italic">в Петербурге</span>
-                    </h1>
-                    <div class="header-cart-text">Оригинальные свежие букеты
-                        с доставкой по всему городу</div>
-                    <div class="header-cart-button"><a href="">Смотреть каталог</a></div>
-                </div>
-                <div class="header-picture picture1"><img src="images/anna-tukhfatullina-food-photographer-stylist-bq6Gd7pQznU-unsplash%201.png" alt=""></div>
-                <div class="header-picture picture2"><img src="images/taisiia-shestopal-JZDyFwGAEqY-unsplash%201.png" alt=""></div>
             </div>
-        </header>
-
+        </nav>
+    </header>
+    <main class="page-content">
+        <div class="container block">
+            <div class="intro-cart">
+                <h1 class="intro-cart-title">Авторские букеты
+                    <span class="italic">в Петербурге</span>
+                </h1>
+                <div class="intro-cart-text">Оригинальные свежие букеты
+                    с доставкой по всему городу</div>
+                <div class="intro-cart-button"><a href="">Смотреть каталог</a></div>
+            </div>
+            <div class="intro-picture picture1"><img src="images/anna-tukhfatullina-food-photographer-stylist-bq6Gd7pQznU-unsplash%201.png" alt=""></div>
+            <div class="intro-picture picture2"><img src="images/taisiia-shestopal-JZDyFwGAEqY-unsplash%201.png" alt=""></div>
+        </div>
         <div class="advantages block">
             <div class="advantage">
                 <div class="advantage-pict">
@@ -83,10 +84,53 @@
         </div>
 
         <section class="popular block">
+            <h2 class="popular-title">Популярные букеты</h2>
+            <div class="slider">
+                <div class="slider-item">
+                    <div class="slider-item-cart">
+                        <h3 class="slider-item-cart-title">Букет "Нежность"</h3>
+                        <p>Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
+                        <p>30 х 40</p>
+                        <p>3600р.</p>
+                        <a href="#0">Заказать</a>
+                    </div>
+                    <div class="slider-item-prewiew">
+                        <img src="images/imgbin_flower-bouquet-cut-flowers-floral-design-garden-roses-png%201.png" alt="Букет Нежность">
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button type="button">
+                        <span class="slider-controls-next">Вперед</span>
+                    </button>
+                    <button type="button">
+                        <span class="slider-controls-prev">Назад</span>
+                    </button>
+                </div>
+            </div>
 
         </section>
 
-        <section class="catalog block"></section>
+        <section class="catalog block">
+            <h2 class="catalog-title">Разделы каталога</h2>
+            <article class="catalog-article">
+                <a href="#0">
+                    <h3 class="catalog-article-title">Свадебные букеты</h3>
+                    <p class="catalog-article-text">Букеты для невест</p>
+                </a>
+            </article>
+            <article class="catalog-article">
+                <a href="#0">
+                    <h3 class="catalog-article-title">Букеты с пионами</h3>
+                    <p class="catalog-article-text">Букеты с сезонными пионами</p>
+                </a>
+            </article>
+            <article class="catalog-article">
+                <a href="#0">
+                    <h3 class="catalog-article-title">Выбрать букет</h3>
+                    <p class="catalog-article-text">Букеты в ассортименте</p>
+                </a>
+            </article>
+        </section>
 
         <section class="discount block">
             <div class="discount-cart">
@@ -181,37 +225,36 @@
         <section class="contacts block">
 
         </section>
-
-        <footer class="footer">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <img src="images/Logo-footer.png" alt="Логотип">
-                </div>
-                <ul class="footer-menu">
-                    <li class="footer-menu-item"><a href="">Каталог</a></li>
-                    <li class="footer-menu-item"><a href="">Доставка и оплата</a></li>
-                    <li class="footer-menu-item"><a href="">Отзывы</a></li>
-                    <li class="footer-menu-item"><a href="">Спецпредложения</a></li>
-                    <li class="footer-menu-item"><a href="">Контакты</a></li>
-                </ul>
-                <ul class="footer-socials-menu">
-                    <li class="socials-item">
-                        <a href="#0" class="socials-link socials-link-instagram1">
-                            <span class="socials-link-text">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="socials-item">
-                        <a href="#1" class="socials-link socials-link-facebook1">
-                            <span class="socials-link-text">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="socials-item">
-                        <a href="#2" class="socials-link socials-link-twitter1">
-                            <span class="socials-link-text">Twitter</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
     </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/Logo-footer.png" alt="Логотип">
+            </div>
+            <ul class="footer-menu">
+                <li class="footer-menu-item"><a href="">Каталог</a></li>
+                <li class="footer-menu-item"><a href="">Доставка и оплата</a></li>
+                <li class="footer-menu-item"><a href="">Отзывы</a></li>
+                <li class="footer-menu-item"><a href="">Спецпредложения</a></li>
+                <li class="footer-menu-item"><a href="">Контакты</a></li>
+            </ul>
+            <ul class="footer-socials-menu">
+                <li class="socials-item">
+                    <a href="#0" class="socials-link socials-link-instagram1">
+                        <span class="socials-link-text">Instagram</span>
+                    </a>
+                </li>
+                <li class="socials-item">
+                    <a href="#1" class="socials-link socials-link-facebook1">
+                        <span class="socials-link-text">Facebook</span>
+                    </a>
+                </li>
+                <li class="socials-item">
+                    <a href="#2" class="socials-link socials-link-twitter1">
+                        <span class="socials-link-text">Twitter</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body></html>
