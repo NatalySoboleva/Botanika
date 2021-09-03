@@ -84,7 +84,7 @@ body {
 
 .menu-list {
     width: 488px;
-    padding:0;
+    padding: 0;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -111,7 +111,7 @@ body {
 }
 
 .section-title {
-    font-family: Playfair Display;
+    font-family: PlayfairDisplay;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -222,17 +222,6 @@ body {
     color: #AE7C78;
 }
 
-.popular {
-    width: 794px;
-    height: 546px;
-    border: 1px solid black;
-}
-
-.catalog {
-    height: 442px;
-    border: 1px solid black;
-}
-
 .discount {
     display: flex;
     box-sizing: border-box;
@@ -245,7 +234,7 @@ body {
 }
 
 .discount-cart-title {
-    font-family: Playfair Display;
+    font-family: PlayfairDisplay;
     font-style: normal;
     font-weight: normal;
     font-size: 44px;
@@ -323,6 +312,131 @@ body {
     text-align: center;
     color: #AE7C78;
     margin-top: 8px;
+}
+
+.popular {
+    width: 794px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.popular-title {
+    margin: 0;
+}
+
+.sliders-item {
+    display: flex;
+}
+
+.sliders-item-cart-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #AE7C78;
+}
+
+.sliders-item-cart-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+
+.sliders-item-cart-price {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #AE7C78;
+}
+
+.sliders-item-cart-button {
+    display: block;
+    width: 285px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    background: #D89999;
+    border-radius: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sliders-item-prewiew {
+    height: 438px;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.title {
+    display: none;
+}
+
+.catalog-article {
+    width: 387px;
+    height: 442px;
+}
+
+.catalog-article1 {
+    background-image: url("../images/sammi-sP5CaWEN7Do-unsplash%201.png");
+}
+
+.catalog-article2 {
+    background-image: url("../images/fresh-beautiful-peony-flowers-vase%201.png");
+}
+
+.catalog-article3 {
+    background-image: url("../images/alyssa-strohmann-tnpr-hPOta0-unsplash%201.png");
+}
+
+.catalog-article-cart {
+    display: block;
+    width: 387px;
+    margin: 0;
+    background-color: rgba(174, 124, 120, 0.6);
+    border-radius: 10px;
+}
+
+.catalog-article-title {
+    margin: 0;
+    text-align: center;
+    font-family: PlayfairDisplay;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    padding-top: 190px;
+    color: #FFFFFF;
+}
+
+.catalog-article-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 168px;
 }
 
 .news {
@@ -482,16 +596,44 @@ body {
 .contacts {
     width: 1440px;
     height: 644px;
-    background-image: url("../images/map.png");
     background-color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
 }
 
+.contacts-cart {
+    width: 386px;
+    height: 520px;
 
+    position: absolute;
+    left: 222px;
+    top: 52px;
+    background: #F7FAFC;
+    box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+    border-radius: 12px;
+}
 
+.contacts-cart-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
 
+    color: #AE7C78;
+}
 
+.contacts-cart-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+
+    color: #AE7C78;
+}
 
 
 
